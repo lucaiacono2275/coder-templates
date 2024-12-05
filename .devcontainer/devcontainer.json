@@ -1,0 +1,19 @@
+{
+    "name": "Coder templates",
+    "image": "codercom/enterprise-base:ubuntu",
+    "features": {
+      "ghcr.io/lucaiacono2275/devcontainer-features/coder-cli:0": {},
+      "ghcr.io/devcontainers/features/terraform:1": {}
+    },
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "workbench.colorTheme": "Visual Studio Dark"
+        },
+        "extensions": [
+          "HashiCorp.terraform",
+          "ms-azuretools.vscode-azureterraform"
+        ]
+      }
+    }
+  }
